@@ -34,28 +34,42 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container-fluid d-flex justify-content-between align-items-center">
+  <header id="header" class="header fixed-top" data-scrollto-offset="0">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
 
-      <div class="logo">
-        <h1 class="text-light"><a href="index.html"><span>WeBuild</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
+      <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>LOVE<span>.</span></h1>
+      </a>
 
-      <div class="contact-link float-right">
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="#features">Features</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
+          <li><a class="nav-link scrollto" href="#roadmap">Roadmap</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+        <ul>
+        <i class="bi bi-list mobile-nav-toggle d-none"></i>
+      </nav>
+
+
+
+      <!-- <div class="contact-link float-right">
+        <a href="#features" class="scrollto">Features</a>
         <a href="#contact" class="scrollto">Contact Us</a>
-      </div>
-
+        <a href="#roadmap" class="scrollto">Roadmap</a>
+      </div> -->
+    
     </div>
   </header><!-- End #header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container">
-      <h1>WeBuild</h1>
-      <h2>We're working hard to improve our website and we'll ready to launch after</h2>
-      <div class="countdown" data-count="2023/12/3" data-template="%d days %h:%m:%s"></div>
+      <h1>LOVE</h1>
+      <h2>A new way to show your love, through cryptocurrency!</h2>
+      <div class="countdown" data-count="2023/02/14" data-template="%d days %h:%m:%s"></div>
 
       <form action="forms/notify.php" method="post" role="form" class="php-email-form">
         <div class="row no-gutters">
@@ -78,6 +92,67 @@
   </section><!-- End Hero -->
 
   <main id="main">
+
+    <!-- ======= Features Section ======= -->
+        <section id="features" class="features">
+      <div class="container py-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-4">
+        <div class="card mx-auto text-center" style="width: 18rem;height: 100%">
+          <img src="https://www.shutterstock.com/image-vector/vector-heart-shape-frame-brush-600w-556120846.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Express your love</h5>
+            <p class="card-text">With LOVE Cryptocurrency, you can express your love in a whole new way. Send a digital token of your love to someone special, anytime, anywhere.</p>
+        </div>
+        </div>
+      </div>
+        <div class="col-4">
+        <div class="card mx-auto text-center" style="width: 18rem;height: 100%">
+          <img src="https://media.istockphoto.com/id/1341426484/photo/gifts-bursting-out-from-red-open-gift-box-over-white-background.jpg?s=612x612&w=is&k=20&c=9ZSrFG31pG4TiIMZcYJvlk2eNFRC6TTlHYy9a6d2-sg=" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Built on blockchain technology</h5>
+            <p class="card-text">Impress your loved one with a truly unique gift. LOVE Cryptocurrency is a one-of-a-kind way to show your affection, and a gift that will be remembered for years to come.</p>
+        </div>
+        </div>
+      </div>
+        <div class="col-4">
+        <div class="card mx-auto text-center" style="width: 18rem;height: 100%">
+          <img src="https://www.citypng.com/public/uploads/preview/-51614886510o9rp08snjj.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Built on blockchain technology</h5>
+            <p class="card-text">Our cryptocurrency is built on the secure and reliable blockchain technology, ensuring that your transactions are safe and secure.</p>
+          </div>
+        </div>
+        </div>
+        </div>
+<!-- 
+        <div class="col-4">
+          <img src="https://www.shutterstock.com/image-vector/vector-heart-shape-frame-brush-600w-556120846.jpg" alt="Heart Icon" />
+          <h3>Express your love</h3>
+          <p>
+            With LOVE Cryptocurrency, you can express your love in a whole new way. Send a digital token of your love to someone special, anytime, anywhere.
+          </p>
+        </div>
+        <div class="col-4">
+          <img src="https://media.istockphoto.com/id/1341426484/photo/gifts-bursting-out-from-red-open-gift-box-over-white-background.jpg?s=612x612&w=is&k=20&c=9ZSrFG31pG4TiIMZcYJvlk2eNFRC6TTlHYy9a6d2-sg=" alt="Gift Box" />
+          <h3>Gift something unique</h3>
+          <p>
+            Impress your loved one with a truly unique gift. LOVE Cryptocurrency is a one-of-a-kind way to show your affection, and a gift that will be remembered for years to come.
+          </p>
+        </div>
+        <div class="col-4">
+          <img src="https://www.citypng.com/public/uploads/preview/-51614886510o9rp08snjj.png" alt="Blockchain Icon" />
+          <h3>Built on blockchain technology</h3>
+          <p>
+            Our cryptocurrency is built on the secure and reliable blockchain technology, ensuring that your transactions are safe and secure.
+          </p>
+        </div> -->
+
+      </div>
+    </div>
+  </section>
+  <!-- End Features Section -->
+
 
     <!-- ======= Contact Us Section ======= -->
     <section id="contact" class="contact">
@@ -149,14 +224,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>WeBuild</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-coming-soon-template-countdwon/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        &copy; Copyright <strong><span>LOVE Cryptocurrency</span></strong>. All Rights Reserved
       </div>
     </div>
   </footer><!-- End #footer -->
